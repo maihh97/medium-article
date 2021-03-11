@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,500&family=Montserrat:wght@200;700&display=swap');
+
+.banner {
+  background-image: url("https://source.unsplash.com/collection/190727/1600x900");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 400px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.article-card-position {
+  margin: 0px 10px 15px 20px;
+  padding: 50px 419px;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  color: gray;
+  font-weight: lighter;
+  font-size: 27px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Lora', serif;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.bannerh2 {
+  font-family: 'Lora', serif;
+  color: white;
+  font-size: 32px;
+  font-style: italic;
+}
+
+.linkbackgroundcolor {
+  font-size: 25px;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  text-decoration: none;
+  color: gray;
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+}
+
+a:hover {
+  background-image: linear-gradient(to bottom, rgba(102, 204, 153, 1), rgba(102, 204, 153, 1));;
+}
+
+@media (max-width: 1200px) {
+  /* For a screen < 1200px, this CSS will be read */
+  .article-card-position {
+    width: 700px;
+    padding: 50px 419px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* For a screen < 1200px, this CSS will be read */
+  .article-card-position {
+    width: 600px;
+    padding: 50px 319px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .article-card-position {
+    width: 500px;
+    padding: 50px 200px;
+  }
+}
+@media (max-width: 576px) {
+  /* For a screen < 540px, this CSS will be read */
+  .article-card-position {
+    width: 300px;
+    padding: 50px 100px;
+  }
+}
